@@ -100,7 +100,6 @@ h1 {
     #3a3730 0%,
     #aaa397 100%
   );
-
   padding: 16px;
   border-radius: 5px;
   width: 90%;
@@ -130,18 +129,23 @@ h1 {
   );
 }
 
+.todo-text {
+	cursor: pointer;
+}
+
 .icons {
   display: flex;
   align-items: center;
   font-size: 24px;
-  cursor: pointer;
 }
 
 .delete-icon {
   margin-right: 5px;
   color: #fff;
+	cursor: pointer;
 }
 
 .edit-icon {
   color: #fff;
+	cursor: pointer;
 }
